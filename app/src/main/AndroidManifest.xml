@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.strores">
+    package="com.example.stores">
 
     <application
+        android:name=".StoreApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.StroreS">
+        android:theme="@style/Theme.Stores">
         <activity
             android:name=".MainActivity"
             android:exported="true">
